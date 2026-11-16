@@ -39,7 +39,7 @@ public class Main {
 
             if(gc.getCourses().getApi().get(i).getCourseTitle().equalsIgnoreCase("SoapUI Webservices testing"))
             {
-                System.out.println("Price of Soap Ui webservices testing course is " +gc.getCourses().getApi().get(i).getPrice());
+                System.out.println("Price of the  Soap Ui webservices testing course is " +gc.getCourses().getApi().get(i).getPrice());
                 break;
             }
         }
